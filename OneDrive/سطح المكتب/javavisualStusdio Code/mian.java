@@ -29,7 +29,7 @@ System.out.println("================================================");
         wallyKiwi.aanmeren(groteFrans);
         wallyKiwi.aanmeren(smalleSally);
         System.out.println("================================================");
-
+        System.out.println("================================================");
         // 3. Laat SuperMaramiu aanmeren, dit mag niet lukken omdat er geen plaats meer is.
         wallyKiwi.aanmeren(superMaramiu);
         System.out.println("================================================");
