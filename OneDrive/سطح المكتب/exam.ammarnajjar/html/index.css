@@ -1,0 +1,391 @@
+body{
+  color: #000000;
+
+}
+
+.header{
+  position: sticky;
+  top: -1px;
+  z-index: 1;
+    display: flex;
+    height: 50px;
+    margin-top: -10px;
+
+    justify-content: space-around;
+    background-color: #000000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0px 0px 50px 50px;
+
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+    width: 100%;
+}
+.header ul li {
+    flex: 1;
+    padding: 10px;
+}
+.header ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #FFD700;
+    color: #0e0c01;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+.logo img {
+  margin-top: -5px;
+
+}
+.header ul li a :hover{
+    background-color: #000000;
+    color: #fff; 
+    border: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.header ul li :hover{
+    background-color: #000000;
+    color: #fff; 
+    
+}
+
+.content {
+    position: relative;
+    margin-top: -41px;
+    background-image: url("chocolate_hero1.jpg");
+    background-size:auto;
+    height: 100vh;
+}
+.text-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 272px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 220px;
+    font-weight: bold;
+    color: #FFDF00;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.text-container :hover{
+    color: #fff; 
+}
+.content1{
+    display: flex;
+    height: 100vh;
+   justify-content: center;
+    align-items: center;
+    padding: 0px 250px;
+  
+  }
+  .box{
+  
+    width: 1004px;
+    height: 425px;
+    background-image: url("witte-chocola.jpg");
+    background-size: cover;
+    border-radius: 2%;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px #FF8C00; /* Add box shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 30px rgba(205, 28, 119, 0.2); /* Adjust shadow on hover */
+  }
+  .title{
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Pacifico', cursive;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .box :hover{
+    background-color: #750acc;
+    color: #fff; 
+    border: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+
+  }
+ .title h2{
+  color: #f9f9f9;
+  background-color: #FF8C00;
+
+    font-size: 40px;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+ } 
+ .title h2:hover{
+  background-color: #FF8C00;
+     color: #fff;
+ }
+ .title button {
+    background-color: #FF8C00 ; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .title button:hover{
+    background-color: #000000;
+    color: #fff; 
+    
+  }
+
+  .content3{
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    place-content: space-around;
+    justify-content: center;
+    align-content: flex-end;
+    
+  
+  }
+.boxundder{position: relative;
+  display: flex;
+  place-content: space-around;
+  justify-content: center;
+    align-content: flex-end;
+
+
+}
+.boxundder p{
+  color: #000 ;
+}
+.boxundder h3{
+  text-decoration: underline;
+}
+  .text{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 220px;
+    color: #FFDF00;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .boxss{
+    display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      justify-content: space-evenly;
+      margin: 5px auto;
+  }
+  .box3{
+  
+    width: 300px;
+    height: 297px;
+    background-image: url("Melkchocola.jpg");
+    background-size: cover;
+    border-radius: 2%;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-right: 15px;
+    box-shadow: 0 8px 8px #FF8C00; /* Add box shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+  }
+  .box3:hover {
+    box-shadow: 0 8px 10px rgba(205, 28, 119, 0.2); /* Adjust shadow on hover */
+  }
+  .box3-1{
+    background-color: #ffffff;
+      width: 300px;
+      height: 297px;
+      background-size: cover;
+      border-radius: 2%;
+      position: relative;
+      margin-right: 15px;
+      overflow: hidden;
+      
+  }
+  .boxp p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+  }
+  .box4{
+    width: 300px;
+      height: 297px;
+    background-image: url("pure.jpg");
+    background-size: cover;
+    border-radius: 2%;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-right: 15px;
+    transition: background-size 0.3s;
+    box-shadow: 0 4px 8px rgba(50, 231, 43, 0.1);
+  }
+  .box4-1{
+    background-color: #ffffff;
+      width: 300px;
+      height: 297px;
+      background-size: cover;
+      border-radius: 2%;
+      position: relative;
+      margin-right: 15px;
+      overflow: hidden;
+  }
+  .box5{
+  
+    width: 300px;
+      height: 297px;
+    background-image: url("Melkchocola.jpg");
+    background-size: cover;
+    border-radius: 2%;
+    background-position: center;
+    position: relative;
+    margin-right: 15px;
+    overflow: hidden;
+    transition: background-size 0.3s;
+    box-shadow: 0 4px 8px rgba(246, 253, 246, 0.1);
+  }
+  .box5-1{
+    background-color: #ffffff;
+      width: 300px  ;
+      height: 297px;
+      background-size: cover;
+      border-radius: 2%;
+      position: relative;
+      margin-right: 15px;
+      overflow: hidden;
+  }
+
+  .chocolate-bar {
+    width: 200px;
+    height: 100px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+  }
+  
+  .chocolate-bar img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-elements {
+    display: flex;
+    justify-content: center;
+    flex: auto;
+  }
+  
+  .form-elements form {
+    margin: 10px;
+  }
+  
+  #form2 p {
+    margin: 0;
+    padding: 0;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[list="type"],
+  textarea {
+    padding: 11px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(240, 240, 241);
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  textarea {
+    height: 220px;
+    resize: none;
+  }
+
+.map-container {
+  width: 200vh;
+  height: 100vh;  
+
+
+  }
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+
+
+}
+  
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195vh;
+    padding: 18px;
+    height: 70px;
+    margin: 5px 5px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFD700;
+
+}
+.green{
+  color: #000000;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Apply styles for screens larger than or equal to 768px width */
+  .map-container {
+    height: 70vh; /* Adjusted height for larger screens */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Apply styles for screens larger than or equal to 992px width */
+  .map-container {
+    height: 80vh; /* Adjusted height for even larger screens */
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Apply styles for screens larger than or equal to 1200px width */
+  .map-container {
+    height: 90vh; /* Adjusted height for extra-large screens */
+  }
+}
